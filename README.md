@@ -43,7 +43,7 @@ It capture the Keylogs, store it locally and periodically upload the file to the
     
 ### 🥷 To Do 
  
-* Rewrite it using C++ 
+* Rewrite windows version using C++ 
 * Make it Persistent
 * To log the keystrokes of Virtual Keyboard  
 
@@ -57,8 +57,8 @@ It capture the Keylogs, store it locally and periodically upload the file to the
 
 ### 🤝 Contribution  
   
-* [Nebulx](discord.com/users/758104123249262652) 
-* [8rupees](https://github.com/8rupees)  
+* [Nebulx](https://discord.com/users/758104123249262652) 
+* [8rupees](https://github.com/adhikarE)  
 
 
 
@@ -81,5 +81,7 @@ ___Contributions are appreciated ❤️___
  <a href='https://discord.com/users/718847515176206406' target="blank"> <img align="center" src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white"/></a> <a href='https://twitter.com/debang5hu' target="blank"> <img align="center" src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white"/></a>  
  
 
+ps: I created this repo just for learning purpose. I wont be updating it anymore but I do have a plan (later) to rewrite the windows version using c++.  
+   
 
 🚫 __Disclamer__: Don't use it to harm other's privacy  
