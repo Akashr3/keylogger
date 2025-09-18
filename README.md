@@ -253,17 +253,10 @@ We welcome contributions! Here's how you can help:
 ### 👨‍💻 Akash
 
 [![GitHub](https://img.shields.io/badge/GitHub-Akashr3-black?style=for-the-badge&logo=github)](https://github.com/Akashr3)
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-blue?style=for-the-badge&logo=gmail)](mailto:your-email@example.com)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-blue?style=for-the-badge&logo=gmail)](mailto:akash.ranganath03@gmail.com)
 
 ---
 
-### 📊 Project Stats
-
-![GitHub stars](https://img.shields.io/github/stars/Akashr3/keylogger?style=social)
-![GitHub forks](https://img.shields.io/github/forks/Akashr3/keylogger?style=social)
-![GitHub issues](https://img.shields.io/github/issues/Akashr3/keylogger?style=social)
-
----
 
 **⭐ If you found this project helpful, please give it a star! ⭐**
 
