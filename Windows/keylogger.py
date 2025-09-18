@@ -1,5 +1,12 @@
 # _*_ coding: utf-8 _*_
 
+"""
+Keylogger for Windows
+Author: Akash (@Akashr3)
+GitHub: https://github.com/Akashr3
+Created for educational and security testing purposes only.
+"""
+
 # Windows
 # tested on Windows 10
 

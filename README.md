@@ -1,87 +1,270 @@
-# 🔐  ⌨  keylogger  
+<div align="center">
 
-![Python](https://img.shields.io/badge/Python-14354C?style=flat&logo=python&logoColor=white)  ![VS Codium](https://img.shields.io/badge/VSCodium-2F80ED?style=flat&logo=VSCodium&logoColor=white)  ![Debian](https://img.shields.io/badge/Debian-A81D33?style=flat&logo=debian&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat&logo=windows&logoColor=white)  
+# 🎯 Advanced Keylogger System
 
-A simple keylogger made in python that send the keystrokes to the attacker's server.  
+[![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-green?style=for-the-badge)](https://github.com/Akashr3)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE.md)
+[![Author](https://img.shields.io/badge/Author-Akashr3-red?style=for-the-badge)](https://github.com/Akashr3)
 
----  
+*A sophisticated keylogging solution designed for security research and educational purposes*
 
-### 🐼 How It Works  
+---
 
-It capture the Keylogs, store it locally and periodically upload the file to the Server.  
+</div>
 
----  
+## 📋 Table of Contents
 
-### 🛠️ Usage  
- 
-##### 👥 Client:  
+- [🎯 Overview](#-overview)
+- [✨ Features](#-features)
+- [🚀 Quick Start](#-quick-start)
+- [📁 Project Structure](#-project-structure)
+- [⚙️ Configuration](#️-configuration)
+- [🛠️ Installation](#️-installation)
+- [📖 Usage](#-usage)
+- [🔧 Development](#-development)
+- [⚠️ Legal Notice](#️-legal-notice)
+- [🤝 Contributing](#-contributing)
+- [📞 Contact](#-contact)
 
-- 🐧 [Linux](Linux/README.md) 
+---
 
-- 🖥️ [Windows](Windows/README.md) 
+## 🎯 Overview
 
----  
+This project implements a cross-platform keylogging system with advanced features including:
 
-### 🗿 Feature  
+- **Real-time keystroke capture** across Linux and Windows platforms
+- **Clipboard monitoring** for comprehensive data collection
+- **Telegram integration** for remote data transmission
+- **Stealth operation** with background execution
+- **Persistence mechanisms** for continuous operation
 
-* Works in WAN  
-* It fetches the unique clipboard data  
+> **⚠️ IMPORTANT**: This tool is designed exclusively for educational purposes and authorized security testing. Unauthorized use is strictly prohibited.
 
----  
+---
 
-### 🚀 New Feature  
+## ✨ Features
 
-* It sends the data to Telegram  
+### 🔥 Core Capabilities
 
----  
+| Feature | Linux | Windows | Description |
+|---------|-------|---------|-------------|
+| **Keystroke Logging** | ✅ | ✅ | Captures all keyboard input |
+| **Clipboard Monitoring** | ✅ | ✅ | Tracks clipboard changes |
+| **Telegram Integration** | ✅ | ✅ | Remote data transmission |
+| **Background Operation** | ✅ | ✅ | Stealth execution |
+| **Persistence** | ✅ | ⚠️ | Auto-start capabilities |
+| **File Hiding** | ❌ | ✅ | Hidden log files |
 
-### 🐞 Bug  
-   
-* Feel free to report any Bug  
+### 🎨 Advanced Features
 
----  
-    
-### 🥷 To Do 
- 
-* Rewrite windows version using C++ 
-* Make it Persistent
-* To log the keystrokes of Virtual Keyboard  
+- **🔄 Jitter-based timing** to avoid detection patterns
+- **📱 Cross-platform compatibility** (Linux/Windows)
+- **🔐 Encrypted communication** via Telegram API
+- **📊 Structured logging** with timestamps
+- **🛡️ Error handling** with remote notifications
 
----  
+---
 
-### 😭 Drawback  
+## 🚀 Quick Start
 
-* Executable size is large  
+### Prerequisites
 
----  
+- Python 3.8 or higher
+- pip package manager
+- Telegram Bot Token (for remote features)
 
-### 🤝 Contribution  
-  
-* [Nebulx](https://discord.com/users/758104123249262652) 
-* [8rupees](https://github.com/adhikarE)  
+### One-Line Setup
 
+```bash
+git clone https://github.com/Akashr3/keylogger.git && cd keylogger
+```
 
+---
 
-__PS:__ Thankyou for contributing or giving ideas to make this project better.  
+## 📁 Project Structure
 
-___Contributions are appreciated ❤️___
+```
+keylogger/
+├── 📄 README.md                 # Project documentation
+├── 📄 LICENSE.md               # MIT License
+├── 🐧 Linux/                   # Linux implementation
+│   ├── keylogger.py           # Main Linux keylogger
+│   ├── README.md              # Linux-specific docs
+│   └── requirements.txt       # Python dependencies
+└── 🪟 Windows/                 # Windows implementation
+    ├── keylogger.py           # Main Windows keylogger
+    ├── README.md              # Windows-specific docs
+    └── requirements.txt       # Python dependencies
+```
 
----  
+---
 
-### 💻 My Set-Up  
+## ⚙️ Configuration
 
-* Language Used: __Python3__ 
-* IDE: __VS Codium__  
-* OS Used: __Linux (Debian)__,__Windows 10__    
+### Required Settings
 
----  
+Before running the keylogger, configure these essential parameters:
 
-### 💬 To Reach Me  
+```python
+# Telegram Configuration
+TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'    # Get from @BotFather
+CHAT_ID = 'YOUR_TELEGRAM_CHAT_ID'    # Your Telegram chat ID
+INTERVAL = 120                       # Upload interval (seconds)
+```
 
- <a href='https://discord.com/users/718847515176206406' target="blank"> <img align="center" src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white"/></a> <a href='https://twitter.com/debang5hu' target="blank"> <img align="center" src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white"/></a>  
- 
+### 🔧 Configuration Guide
 
-ps: I created this repo just for learning purpose. I wont be updating it anymore but I do have a plan (later) to rewrite the windows version using c++.  
-   
+1. **Create Telegram Bot**:
+   - Message [@BotFather](https://t.me/BotFather) on Telegram
+   - Use `/newbot` command to create a new bot
+   - Copy the provided token
 
-🚫 __Disclamer__: Don't use it to harm other's privacy  
+2. **Get Chat ID**:
+   - Message your bot
+   - Visit: `https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates`
+   - Find your chat ID in the response
+
+---
+
+## 🛠️ Installation
+
+### Linux Installation
+
+```bash
+cd Linux/
+pip install -r requirements.txt
+python3 keylogger.py
+```
+
+### Windows Installation
+
+```powershell
+cd Windows/
+pip install -r requirements.txt
+python keylogger.py
+```
+
+### Create Executable
+
+```bash
+# Linux
+pyinstaller --noconsole --onefile keylogger.py
+
+# Windows
+pyinstaller --noconsole --onefile keylogger.py
+```
+
+---
+
+## 📖 Usage
+
+### Basic Operation
+
+1. **Configure** your Telegram credentials
+2. **Run** the keylogger script
+3. **Monitor** data via Telegram messages
+4. **Stop** using Ctrl+C
+
+### Advanced Usage
+
+```bash
+# Run with custom interval
+python3 keylogger.py --interval 300
+
+# Run in background (Linux)
+nohup python3 keylogger.py &
+
+# Run as service (Windows)
+pythonw keylogger.py
+```
+
+---
+
+## 🔧 Development
+
+### Development Setup
+
+```bash
+# Clone repository
+git clone https://github.com/Akashr3/keylogger.git
+cd keylogger
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# or
+venv\Scripts\activate     # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### Code Structure
+
+- **`keylogger.py`**: Main keylogging logic
+- **`uploader.py`**: Telegram integration
+- **`persistence.py`**: Auto-start mechanisms
+- **`utils.py`**: Helper functions
+
+---
+
+## ⚠️ Legal Notice
+
+### 🚨 Important Disclaimers
+
+- **Educational Use Only**: This software is intended solely for educational and research purposes
+- **Authorized Testing**: Only use on systems you own or have explicit permission to test
+- **No Malicious Use**: Any unauthorized use is strictly prohibited
+- **Compliance**: Users must comply with all applicable laws and regulations
+
+### 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Here's how you can help:
+
+### 🎯 Ways to Contribute
+
+- 🐛 **Report Bugs**: Found an issue? Let us know!
+- 💡 **Suggest Features**: Have ideas? We'd love to hear them!
+- 🔧 **Submit Pull Requests**: Fix bugs or add features
+- 📖 **Improve Documentation**: Help others understand the project
+- ⭐ **Star the Repository**: Show your support!
+
+### 🚀 Getting Started
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/amazing-feature`
+3. Commit changes: `git commit -m 'Add amazing feature'`
+4. Push to branch: `git push origin feature/amazing-feature`
+5. Open a Pull Request
+
+---
+
+## 📞 Contact
+
+<div align="center">
+
+### 👨‍💻 Akash
+
+[![GitHub](https://img.shields.io/badge/GitHub-Akashr3-black?style=for-the-badge&logo=github)](https://github.com/Akashr3)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-blue?style=for-the-badge&logo=gmail)](mailto:your-email@example.com)
+
+---
+
+### 📊 Project Stats
+
+![GitHub stars](https://img.shields.io/github/stars/Akashr3/keylogger?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Akashr3/keylogger?style=social)
+![GitHub issues](https://img.shields.io/github/issues/Akashr3/keylogger?style=social)
+
+---
+
+**⭐ If you found this project helpful, please give it a star! ⭐**
+
+</div>

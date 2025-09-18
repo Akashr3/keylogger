@@ -2,6 +2,12 @@
 
 # _*_ coding: utf-8 _*_
 
+"""
+Keylogger for Linux
+Author: Akash (@Akashr3)
+GitHub: https://github.com/Akashr3
+Created for educational and security testing purposes only.
+"""
 
 # tested on Linux (Linux kali 6.5.0-kali2-amd64)
 
